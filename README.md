@@ -8,3 +8,11 @@ Based on tutorials [here](https://www.codingame.com/playgrounds/2524/basic-image
 
 ### scale.py
 1. Scale an image (omg it looks so pixely, I love it)
+
+### flip.py
+1. can flip an image across horizontal and/or vertical axis
+
+### rotate.py
+1. can rotate about the center (not sure how this works. See inline comments for details)
+
+
