@@ -25,3 +25,11 @@ Based on tutorials [here](https://www.codingame.com/playgrounds/2524/basic-image
 ### Contrast
 - The contrast is the difference in brightness that makes the objects in an image distinguishable. See inline comments for more.
 - Check out this resource for more info on a [real contrast algorithm](https://www.dfstudios.co.uk/articles/programming/image-programming-algorithms/image-processing-algorithms-part-5-contrast-adjustment/).
+
+### Colorize!!!
+I hope this is cool... "In the next example, we detect the pixels whose color is close to blue (0, 0, 255) by computing a distance, and we reduce the value of the red and blue components and increase the green component. What will this look like? Anything blue will become less blue, less red, and more green.
+
+Try going in and changing the references `color_to_change = colors['green']` and `scalar = scalars['red']`.
+
+#### Grayscale
+1. Set all the pixel RGB values to their intensity
