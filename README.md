@@ -33,3 +33,18 @@ Try going in and changing the references `color_to_change = colors['green']` and
 
 #### Grayscale
 1. Set all the pixel RGB values to their intensity
+
+
+## Filtering
+
+### Blur
+1. box kernel
+2. gaussian kernel
+
+### Sharpening
+1. use a high pass filter to boost pixels when the neighbor pixels are different
+2. unsharp mask: remove the blurry part of the image
+
+### Edge detection
+1. Sobel Operator: uses two kernels (horizontal, vertical) to detect edges
+
