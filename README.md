@@ -22,3 +22,6 @@ Based on tutorials [here](https://www.codingame.com/playgrounds/2524/basic-image
 ### Luminosity
 1. Dim or brighten an image
 
+### Contrast
+- The contrast is the difference in brightness that makes the objects in an image distinguishable. See inline comments for more.
+- Check out this resource for more info on a [real contrast algorithm](https://www.dfstudios.co.uk/articles/programming/image-programming-algorithms/image-processing-algorithms-part-5-contrast-adjustment/).
