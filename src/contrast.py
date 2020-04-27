@@ -17,7 +17,7 @@ output_image = Image.new("RGB", input_image.size)
 draw = ImageDraw.Draw(output_image)
 
 # let's see if this changes anything?
-contrast = -255
+contrast = 255
 # hmmmm if it's 0 it should go to gray (127), not black (0)!
 # okay subtracting the mean didn't work...
 # to figure this out, we might have to run some simulations... maybe later!
@@ -47,7 +47,7 @@ for x in range(output_image.width):
     # Current luminosity
     i = (r + g + b) / 3
     # New luminosity
-    ip = contrast * (i - imin) / (imax - imin) + imean
+    ip = contrast * (i - imin) / (imax - imin) ## + imean
     r = int(r * ip/i)
     g = int(g * ip/i)
     b = int(b * ip/i)
