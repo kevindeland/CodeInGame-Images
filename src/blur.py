@@ -2,7 +2,8 @@ from PIL import Image, ImageDraw
 from numpy import dot
 
 # Load image
-input_image = Image.open("img/panamacity.jpg")
+## input_image = Image.open("img/pittsburgh.jpg")
+input_image = Image.open("img/patchwork_big.png")
 input_pixels = input_image.load()
 
 # Box Blur kernel
@@ -10,8 +11,14 @@ input_pixels = input_image.load()
 # [1] * 3 => [1, 1, 1]
 # [[1, 1, 1]] * 3 => 3x3 matrix of 1s
 # dot(x, 1/9) multiplies all elements of x by 1/9
-box_size = 7 ## must be odd
+box_size = 13 ## must be odd
 box_kernel = dot([[1] * box_size] * box_size, 1/(box_size **2))
+box_kernel_2 = [
+  [1/9, 1/9, 1/9],
+  [1/9, 1/9, 1/9],
+  [1/9, 1/9, 1/9]
+]
+  
 
 # Gaussian kernel
 gaussian_kernel = dot([
@@ -24,6 +31,7 @@ gaussian_kernel = dot([
 
 # Select kernel here
 kernel = box_kernel
+## kernel = box_kernel
 
 # Middle of kernel
 offset = len(kernel) // 2
@@ -48,4 +56,7 @@ for x in range(offset, input_image.width - offset):
 
     draw.point((x, y), (int(acc[0]), int(acc[1]), int(acc[2])))
 
-output_image.save("img/blurred_box_7.jpg")
+## output_image.save("img/blur/patchwork_big_gauss.png")
+output_image.save("img/blur/patchwork_big_" + str(box_size) + ".png")
+## output_image.save("img/blur/pitt_gauss.jpg")
+##output_image.save("img/blur/pitt_box_" + str(box_size) + ".jpg")
