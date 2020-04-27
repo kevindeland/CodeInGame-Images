@@ -46,10 +46,37 @@ It is really fun to experiment with the **color wheel** images and change the th
 
 ![how box kernel works](./illustrations/box_kernel.png)
 
-### Sharpening (next time!)
+### Sharpening
 1. use a high pass filter to boost pixels when the neighbor pixels are different
 2. unsharp mask: remove the blurry part of the image (look at the difference in any of the building windows in the Pittsburgh image)
 
-### Edge detection (next time!)
-1. Sobel Operator: uses two kernels (horizontal, vertical) to detect edges
+### Edge detection
+1. Sobel Operator: uses two kernels (horizontal, vertical) to detect edges. It works great!
+
+
+## Circle Detection
+See tutorials [here](https://www.codingame.com/playgrounds/38470/how-to-detect-circles-in-images).
+
+### Edge detection
+(?)
+
+### Sobel operator
+already done as part of first tutorial
+
+### Canny Algorithm
+1. *Gaussian filter* - smooths the image to remove noise.
+2. Compute image gradient - identifies the edges
+3. Non-maximum suppression - compute the direction of the gradient, and remove pixels that are not the maximum among their neighbors (??? what does this mean ???)
+4. Edge tracking - track edges by strength (low, high, and in-between)
+
+### Circle Hough Transform
+Circle equation:
+```
+x = a + r*cos(t);
+y = b + r*sin(t);
+t within [0, 2π);
+```
+
+Using the edges from our Canny edge detector and for each possible circle, we count the nuber of edges that are a part of each circle.
+
 
