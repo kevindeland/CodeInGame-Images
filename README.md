@@ -4,23 +4,24 @@ Based on tutorials [here](https://www.codingame.com/playgrounds/2524/basic-image
 ## Transformations
 
 ### crop.py
-1. Crop an image.
-2. Crop an image into tiny images of ten (to be completed)
+1. Crop an image √√√
+2. Crop an image into tiny images of 100x100 √√√
 
 ### scale.py
-1. Scale an image (omg it looks so pixely, I love it)
+1. Scale an image (omg it looks so pixely, I love it) √√√
 
 ### flip.py
-1. can flip an image across horizontal and/or vertical axis
+1. can flip an image across horizontal and/or vertical axis √√√
 
 ### rotate.py
-1. can rotate about the center (not sure how this works. See inline comments for details)
+1. can rotate about the center (not sure how this works. See inline comments for details). What's the math behind this???
 
 
 ## Colors
 
 ### Luminosity
-1. Dim or brighten an image
+1. Dim or brighten an image √√√
+2. Luminosity as function of position in image √√√
 
 ### Contrast
 - The contrast is the difference in brightness that makes the objects in an image distinguishable. See inline comments for more.
@@ -31,6 +32,8 @@ I hope this is cool... "In the next example, we detect the pixels whose color is
 
 Try going in and changing the references `color_to_change = colors['green']` and `scalar = scalars['red']`.
 
+It is really fun to experiment with the **color wheel** images and change the threshold.
+
 #### Grayscale
 1. Set all the pixel RGB values to their intensity
 
@@ -38,13 +41,15 @@ Try going in and changing the references `color_to_change = colors['green']` and
 ## Filtering
 
 ### Blur
-1. box kernel
+1. box kernel (experiment w/ different sizes, make sketches of how it works)
 2. gaussian kernel
 
-### Sharpening
+![how box kernel works](./illustrations/box_kernel.png)
+
+### Sharpening (next time!)
 1. use a high pass filter to boost pixels when the neighbor pixels are different
 2. unsharp mask: remove the blurry part of the image
 
-### Edge detection
+### Edge detection (next time!)
 1. Sobel Operator: uses two kernels (horizontal, vertical) to detect edges
 
