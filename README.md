@@ -48,7 +48,7 @@ It is really fun to experiment with the **color wheel** images and change the th
 
 ### Sharpening (next time!)
 1. use a high pass filter to boost pixels when the neighbor pixels are different
-2. unsharp mask: remove the blurry part of the image
+2. unsharp mask: remove the blurry part of the image (look at the difference in any of the building windows in the Pittsburgh image)
 
 ### Edge detection (next time!)
 1. Sobel Operator: uses two kernels (horizontal, vertical) to detect edges
