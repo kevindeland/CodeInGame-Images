@@ -64,6 +64,7 @@ See tutorials [here](https://www.codingame.com/playgrounds/38470/how-to-detect-c
 already done as part of first tutorial
 
 ### Canny Algorithm
+Follow these steps
 1. *Gaussian filter* - smooths the image to remove noise.
 2. Compute image gradient - identifies the edges
 3. Non-maximum suppression - compute the direction of the gradient, and remove pixels that are not the maximum among their neighbors (??? what does this mean ???)

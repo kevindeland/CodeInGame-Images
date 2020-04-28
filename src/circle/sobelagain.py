@@ -2,7 +2,7 @@ from PIL import Image, ImageDraw
 from math import sqrt
 
 # Load image:
-input_image = Image.open("img/juggle.jpg")
+input_image = Image.open("img/patchwork_big.png")
 input_pixels = input_image.load()
 
 # Sobel kernels
@@ -33,4 +33,4 @@ for x in range(1, input_image.width - 1):
     color = int(sqrt(magx**2 + magy**2))
     draw.point((x, y), (color, color, color))
 
-output_image.save("img/juggle_sobel.jpg")
+output_image.save("img/patchwork_big_sobel.png")

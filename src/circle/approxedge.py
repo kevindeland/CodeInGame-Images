@@ -15,6 +15,7 @@ draw = ImageDraw.Draw(output_image)
 intensity = np.zeros((width, height))
 for x in range(width):
   for y in range(height):
+    ## two colors can have a very similar intensity but look very different (e.g. red and blue)
     intensity[x, y] = sum(input_pixels[x, y]) / 3 ## average the rgb values
 
 # Compute convolution between intensity and kernels
