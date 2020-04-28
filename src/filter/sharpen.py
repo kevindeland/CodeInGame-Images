@@ -1,7 +1,7 @@
 from PIL import Image, ImageDraw
 
 # Load image:
-input_image = Image.open("img/pittsburgh.jpg")
+input_image = Image.open("img/patchwork_big.png")
 input_pixels = input_image.load()
 
 # High-pass kernel (sharpening)
@@ -31,4 +31,4 @@ for x in range(offset, input_image.width - offset):
 
     draw.point((x, y), (int(acc[0]), int(acc[1]), int(acc[2])))
 
-output_image.save("img/sharpen/sharpened.jpg")
+output_image.save("img/sharpen/patchwork_sharpened.png")
