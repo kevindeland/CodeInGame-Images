@@ -80,4 +80,9 @@ t within [0, 2π);
 
 Using the edges from our Canny edge detector and for each possible circle, we count the nuber of edges that are a part of each circle.
 
-
+**YES!!!**
+This seems to work best:
+```
+python3 src/circle/circle.py -i img/inputs/juggle.jpg -o img/circles/juggle_circles.jpg --rmin 14 --rmax 16 --threshold=0.5
+```
+It gets all six balls, and nothing else! (cheating)

@@ -1,6 +1,7 @@
 from math import sqrt, atan2, pi
 import numpy as np
 import sys
+import argparse
 
 ##
 ## export this function
@@ -184,12 +185,16 @@ def filter_strong_edges(gradient, width, height, low, high):
 
 if __name__ == "__main__":
   from PIL import Image, ImageDraw
-  input_image = Image.open("img/inputs/juggle.jpg")
+  parser = argparse.ArgumentParser(description='Run a canny filter over an image')
+  parser.add_argument('-i', metavar='i', type=str, nargs=1, help='the input file', required=True)
+  parser.add_argument('-o', metavar='o', type=str, nargs=1, help='the output file', required=True)
+  args = parser.parse_args()
+  input_image = Image.open(args.i[0])
   output_image = Image.new("RGB", input_image.size)
   draw = ImageDraw.Draw(output_image)
   for x, y in canny_edge_detector(input_image):
     draw.point((x, y), (255, 255, 255))
-  output_image.save("img/canny_lemons.jpg")
+  output_image.save(args.o[0])
 
 
 
