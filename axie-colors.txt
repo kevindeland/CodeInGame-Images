@@ -1,0 +1,76 @@
+/Users/kevindeland/Downloads/axies/axie-01.png
+{r: 0 , g: 0 b: 0 }
+{r: 202 , g: 228 b: 103 }
+{r: 49 , g: 97 b: 31 }
+/Users/kevindeland/Downloads/axies/axie-02.png
+{r: 1 , g: 3 b: 0 }
+{r: 199 , g: 252 b: 216 }
+{r: 122 , g: 184 b: 108 }
+/Users/kevindeland/Downloads/axies/axie-03.png
+{r: 0 , g: 0 b: 0 }
+{r: 239 , g: 192 b: 109 }
+{r: 117 , g: 68 b: 43 }
+/Users/kevindeland/Downloads/axies/axie-04.png
+{r: 243 , g: 93 b: 84 }
+{r: 0 , g: 0 b: 0 }
+{r: 141 , g: 38 b: 47 }
+/Users/kevindeland/Downloads/axies/axie-05.png
+{r: 0 , g: 0 b: 0 }
+{r: 46 , g: 138 b: 179 }
+{r: 233 , g: 208 b: 155 }
+/Users/kevindeland/Downloads/axies/axie-06.png
+{r: 181 , g: 138 b: 59 }
+{r: 2 , g: 3 b: 0 }
+{r: 250 , g: 249 b: 248 }
+/Users/kevindeland/Downloads/axies/axie-07.png
+{r: 0 , g: 4 b: 5 }
+{r: 49 , g: 222 b: 238 }
+{r: 229 , g: 170 b: 84 }
+/Users/kevindeland/Downloads/axies/axie-08.png
+{r: 0 , g: 0 b: 0 }
+{r: 254 , g: 224 b: 86 }
+{r: 138 , g: 60 b: 35 }
+/Users/kevindeland/Downloads/axies/axie-09.png
+{r: 73 , g: 249 b: 221 }
+{r: 0 , g: 3 b: 4 }
+{r: 243 , g: 162 b: 116 }
+/Users/kevindeland/Downloads/axies/axie-11.png
+{r: 117 , g: 54 b: 24 }
+{r: 0 , g: 0 b: 0 }
+{r: 253 , g: 229 b: 76 }
+/Users/kevindeland/Downloads/axies/axie-12.png
+{r: 0 , g: 0 b: 0 }
+{r: 237 , g: 194 b: 121 }
+{r: 125 , g: 59 b: 29 }
+/Users/kevindeland/Downloads/axies/axie-13.png
+{r: 0 , g: 0 b: 0 }
+{r: 196 , g: 245 b: 203 }
+{r: 55 , g: 96 b: 30 }
+/Users/kevindeland/Downloads/axies/axie-14.png
+{r: 0 , g: 0 b: 0 }
+{r: 241 , g: 215 b: 249 }
+{r: 129 , g: 87 b: 100 }
+/Users/kevindeland/Downloads/axies/axie-15.png
+{r: 0 , g: 0 b: 0 }
+{r: 202 , g: 235 b: 113 }
+{r: 42 , g: 91 b: 16 }
+/Users/kevindeland/Downloads/axies/axie-16.png
+{r: 0 , g: 0 b: 0 }
+{r: 248 , g: 239 b: 234 }
+{r: 11 , g: 87 b: 117 }
+/Users/kevindeland/Downloads/axies/axie-17.png
+{r: 0 , g: 0 b: 0 }
+{r: 252 , g: 162 b: 185 }
+{r: 140 , g: 31 b: 78 }
+/Users/kevindeland/Downloads/axies/axie-18.png
+{r: 0 , g: 4 b: 5 }
+{r: 40 , g: 224 b: 239 }
+{r: 245 , g: 189 b: 130 }
+/Users/kevindeland/Downloads/axies/axie-19.png
+{r: 0 , g: 0 b: 0 }
+{r: 247 , g: 238 b: 235 }
+{r: 10 , g: 83 b: 114 }
+/Users/kevindeland/Downloads/axies/axie-20.png
+{r: 0 , g: 0 b: 0 }
+{r: 168 , g: 153 b: 161 }
+{r: 50 , g: 74 b: 90 }
